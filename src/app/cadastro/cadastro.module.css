@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.formContainer {
+  background-color: #fff;
+  padding: 30px; /* Reduzi o padding geral */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 350px; /* Reduzi a largura do container do formulário */
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 15px; /* Reduzi a margem inferior */
+  /* Removi estilos de fonte, pois agora é uma imagem */
+}
+
+.title {
+  margin-bottom: 8px; /* Reduzi a margem inferior */
+  font-size: 1.5rem; /* Reduzi o tamanho da fonte */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 15px; /* Reduzi a margem inferior */
+  color: #666;
+  font-size: 0.9rem; /* Reduzi o tamanho da fonte */
+}
+
+.socialButtons {
+  display: flex;
+  gap: 8px; /* Reduzi o espaçamento entre os botões */
+  margin-bottom: 15px; /* Reduzi a margem inferior */
+  justify-content: center;
+}
+
+.socialButton {
+  flex: 1;
+  padding: 8px 12px; /* Reduzi o padding dos botões sociais */
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.9rem; /* Reduzi o tamanho da fonte */
+}
+
+.separator {
+  margin: 15px 0; /* Reduzi a margem vertical */
+  color: #999;
+  font-weight: bold;
+  font-size: 0.9rem; /* Reduzi o tamanho da fonte */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduzi o espaçamento entre os elementos do formulário */
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.label {
+  margin-bottom: 3px; /* Reduzi a margem inferior */
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9rem; /* Reduzi o tamanho da fonte */
+}
+
+.input {
+  padding: 10px 12px; /* Reduzi o padding dos inputs */
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem; /* Reduzi o tamanho da fonte */
+}
+
+.button {
+  background-color: #6750a4;
+  color: #fff;
+  padding: 10px 15px; /* Reduzi o padding do botão principal */
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem; /* Reduzi o tamanho da fonte */
+  font-weight: bold;
+}
+
+.secondaryButton {
+  background-color: transparent;
+  color: #6750a4;
+  border: none;
+  padding: 8px; /* Reduzi o padding do botão secundário */
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.8rem; /* Reduzi o tamanho da fonte */
+  margin-top: 8px; /* Reduzi a margem superior */
+}
+
+.signUp {
+  margin-top: 15px; /* Reduzi a margem superior */
+  color: #666;
+  font-size: 0.8rem; /* Reduzi o tamanho da fonte */
+}
+
+.link {
+  color: #6750a4;
+  font-weight: bold;
+  text-decoration: none;
+}
+.logo {
+  display: grid;
+  place-items: center;
+}
+
+.securedBy {
+  margin-top: 20px; /* Reduzi a margem superior */
+  color: #999;
+  font-size: 0.7rem; /* Reduzi o tamanho da fonte */
+}
